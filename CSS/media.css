@@ -1,0 +1,67 @@
+@media screen and (max-width: 400px) {
+    body {
+        padding: 0 20%;
+    }
+    
+    header {
+        display: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bud {
+        font-size: 0.5em;
+    }
+
+    .intro-head h1 {
+        font-size: 2.2em;
+    }
+
+    img {
+        margin: 0 auto;
+    }
+
+    .name {
+        margin: 8% 0;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .next-2 {
+        margin: 10% auto;
+    }
+
+    .socials-2 {
+        margin: 10% auto;
+    }
+
+    .socials-2 a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3em;
+        /* margin: 0 20px; */
+        transition: ease-in-out 0.4s;
+    }
+    
+    .socials-2 a:hover {
+        color: #ffffff9d;
+        transition: ease-in-out 0.4s;
+    }
+
+    .next {
+        display: none;
+    }
+
+    .quote {
+        margin: 0;
+    }
+    
+}
