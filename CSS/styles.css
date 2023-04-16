@@ -64,7 +64,7 @@ body {
     transition: ease-in-out 0.4s;
 }
 
-img {
+.main-img {
     background-color: #FFF;
     width: 80%;
     border-radius: 100%;
@@ -72,7 +72,7 @@ img {
     transition: ease-in-out 0.4s;
 }
 
-img:hover {
+.main-img:hover {
     box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
     transition: ease-in-out 0.4s;
 }
