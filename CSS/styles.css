@@ -117,8 +117,9 @@ img:hover {
 
 .next {
     margin-top: 3vh;
-    padding-bottom: 1vh;
+    padding: 1vh 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.625);
+    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 .next a p {
@@ -126,11 +127,11 @@ img:hover {
     font-family: 'outfit', sans-serif;
     font-size: 1em;
     letter-spacing: 0.1em;
-    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
-.next a p:hover {
-    opacity: 60%;
+.next:hover {
+    padding: 1vh 0.5vw 1vh 1vw;
+    background-color: #99999925;
     transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
@@ -163,7 +164,9 @@ hr {
 
 .name h2:hover hr {
     width: 100%;
-    transition: ease-in-out 0.6s;
+    /* transition: ease-in-out 0.6s; */
+    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+
 }
 
 .row2 {
@@ -238,10 +241,6 @@ hr {
 .a-link a p{
     color: #3396FF;
     font-size: 1.3em;
-}
-
-.a-link a p:hover {
-    
 }
 
 .a-link:hover {
