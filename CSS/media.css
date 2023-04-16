@@ -24,7 +24,7 @@
     }
 
     img {
-        margin: 0 auto;
+        margin: 10% auto;
     }
 
     .name {
@@ -41,14 +41,18 @@
 
     .socials-2 {
         margin: 10% auto;
+        display: flex;
+        justify-content: center;
     }
 
     .socials-2 a {
+        display: flex;
         text-decoration: none;
         color: white;
         font-size: 1.3em;
         /* margin: 0 20px; */
         transition: ease-in-out 0.4s;
+        margin: 10% 5%;
     }
     
     .socials-2 a:hover {

@@ -7,13 +7,14 @@ body {
     background-color: rgb(17, 17, 17);
     font-family: 'Kanit', sans-serif;
     color: whitesmoke;
+    padding: 5%;
 }
 
 header div {
     margin-top: 2em;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .wel {
@@ -35,7 +36,7 @@ header div {
 .row {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .col-2 {
@@ -50,7 +51,7 @@ header div {
 
 .col-1 h2 {
     font-size: 4rem; /* 5em */
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .col-1 h1 {
@@ -98,6 +99,25 @@ img:hover {
 }
 
 .socials a:hover {
+    color: #ffffff9d;
+    transition: ease-in-out 0.4s;
+}
+
+.socials-2 {
+    margin-top: 10px;
+    display: none;
+}
+
+.socials-2 a {
+    display: none;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    margin: 0 20px;
+    transition: ease-in-out 0.4s;
+}
+
+.socials-2 a:hover {
     color: #ffffff9d;
     transition: ease-in-out 0.4s;
 }
