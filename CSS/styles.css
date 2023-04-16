@@ -4,10 +4,17 @@
 }
 
 body {
-    background-color: rgb(17, 17, 17);
-    font-family: 'Kanit', sans-serif;
-    color: whitesmoke;
-    padding: 5%;
+    background-color: black;
+    font-family: 'kanit', sans-serif;
+    color: white;
+    /* padding: 8vh 10vw 0; */
+}
+
+#hello-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .row {
@@ -109,9 +116,22 @@ img:hover {
 }
 
 .next {
-    position: relative;
-    top: 30%;
-    display: flex;
+    margin-top: 3vh;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.625);
+}
+
+.next a p {
+    color: white;
+    font-family: 'outfit', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.next a p:hover {
+    opacity: 60%;
+    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 .arrow-logo {
@@ -152,3 +172,103 @@ hr {
     align-items: center;
     justify-content: space-between;
 }
+
+/* about */
+
+#about {
+    height: 100vh;
+    padding: 0 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-root {
+    text-align: center;
+    font-family: 'outfit', sans-serif;
+}
+
+.a-greet {
+    font-size: 2em;
+}
+
+.a-greet p span {
+    color: #3396FF;
+    font-weight: bold;
+}
+
+.a-name {
+    margin: 8vh 0 5vh;
+}
+
+.a-name p {
+    font-size: 2.5em;
+}
+
+.a-name p span{
+    font-weight: bold;
+}
+
+.a-name h1 {
+    font-size: 7em;
+}
+
+.a-name h1 span {
+    color: #3396FF;
+}
+
+.a-des {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #999;
+}
+
+.a-link {
+    display: inline-block;
+    margin: 10vh 0 0;
+    padding: 1vh 0;
+    border-bottom: 1px solid #3396ffab;
+    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.a-link a {
+    text-decoration: none;
+}
+
+.a-link a p{
+    color: #3396FF;
+    font-size: 1.3em;
+}
+
+.a-link a p:hover {
+    
+}
+
+.a-link:hover {
+    background-color: #3396ff28;
+    padding: 1vh 1vw;
+    transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+
+/* about */
+
+/* webkits */
+
+::-webkit-scrollbar {
+    width: 0.4em;
+    height: 0.3em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 1rem;
+}
+
+
+/* webkits */
