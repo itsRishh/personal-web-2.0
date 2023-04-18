@@ -233,6 +233,7 @@ hr {
     font-size: 1.5em;
     line-height: 1.5em;
     color: #999;
+    font-weight: 300;
 }
 
 .a-link {
@@ -316,6 +317,56 @@ hr {
 }
 
 /* skills */
+
+/* git-dashboard */
+
+#github {
+    height: 100vh;
+    background-image: url("/images/gitbg.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.git-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.git-logo-cont {
+    width: 3vw;
+}
+
+.git-logos img {
+    border-radius: 100%;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.git-logos hr {
+    border-bottom: 4px dotted #999;
+    width: 3vw;
+    margin: 0 1vw;
+}
+
+.eng-cont {
+    margin-top: 10vh;
+}
+
+.eng-cont-in {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    grid-gap: 5vw;
+}
+
+/* git-dashboard */
 
 /* webkits */
 
