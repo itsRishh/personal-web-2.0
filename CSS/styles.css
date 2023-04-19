@@ -201,6 +201,7 @@ hr {
 }
 
 .a-greet {
+    font-family: 'outfit', sans-serif;
     font-size: 2em;
 }
 
@@ -233,6 +234,7 @@ hr {
     font-size: 1.5em;
     line-height: 1.5em;
     color: #999;
+    font-family: 'outfit', sans-serif;
     font-weight: 300;
 }
 
@@ -262,66 +264,11 @@ hr {
 
 /* about */
 
-/* skills */
-
-#toys {
-    transform: scale(75%);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* .t-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-} */
-
-.t-col-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.bar-row1, .bar-row2 {
-    display: flex; 
-    margin-top: 5vh;
-}
-
-.bar {
-    width: 35vw;
-    transition: all 0.7s ease-in-out;
-    background-color: #9999992a;
-    margin: 1vh 0;
-}
-
-.bar:hover .html-bar {
-    width: 70%;
-    transition: all 0.7s ease-in-out;
-}
-
-.html-bar {
-    transition: all 0.7s ease-in-out;
-    /* transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1); */
-    width: 8vw;
-    padding-left: 1vw;
-}
-
-.html-bar p {
-    padding: 1vh 3vw 1vh 1vw;
-    width: 2vw;
-    color: white;
-    font-size: 1.2em;
-}
-
-/* skills */
-
 /* git-dashboard */
 
 #github {
     height: 100vh;
+    padding: 10vh 0;
     background-image: url("/images/gitbg.jpg");
     background-position: 50%;
     background-size: cover;
@@ -331,6 +278,9 @@ hr {
     justify-content: center;
 }
 
+.g-root {
+    transform: scale(90%);
+}
 
 .git-logos {
     display: flex;

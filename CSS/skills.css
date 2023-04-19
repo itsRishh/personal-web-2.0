@@ -1,0 +1,141 @@
+/* skills */
+
+#toys {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-root {
+    transform: scale(75%);
+}
+
+.t-row {
+    display: flex;
+    grid-gap: 15vw;
+}
+
+.skill-bars {
+    margin-top: 18vh;
+}
+
+.bar-b {
+    margin: 2vh 0;
+    display: block;
+    background-color: #99999936;
+    width: 35vw;
+}
+
+.bar-b p {
+    padding: 0.5vh 0.5vw;
+}
+
+.html-bar {
+    background-color: #bd4b04;
+    width: 30vw;
+    animation: html-bar 3s;
+}
+
+.css-bar {
+    width: 24vw;
+    background-color: #2673a7;
+    animation: css-bar 3s;
+}
+
+.js-bar {
+    width: 10vw;
+    background-color: #ffcf63;
+    animation: js-bar 3s;
+}
+
+.p-bar {
+    width: 18vw;
+    background-color: #5a68a5;
+    animation: p-bar 3s;
+}
+
+.m-bar {
+    background-color: #0075bf;
+    width: 11vw;
+    animation: m-bar 3s;
+}
+
+.b-bar {
+    background-color: #553c7b;
+    width: 26vw;
+    animation: b-bar 3s;
+}
+.figma-bar {
+    background-color: #0acc81;
+    width: 90%;
+    animation: figma-bar 3s;
+}
+
+
+@keyframes html-bar {
+    0%{
+        width: 0%;
+    }
+
+    100% {
+        width: 30vw;
+    }
+} 
+@keyframes css-bar {
+    0%{
+        width: 0%;
+    }
+
+    100% {
+        width: 24vw;
+    }
+} 
+@keyframes js-bar {
+    0%{
+        width: 0%;
+    }
+
+    100% {
+        width: 10vw;
+    }
+} 
+@keyframes p-bar {
+    0%{
+        width: 0%;
+    }
+
+    100% {
+        width: 18vw;
+    }
+} 
+@keyframes m-bar {
+    0%{
+        width: 0%;
+    }
+
+    100% {
+        width: 11vw;
+    }
+} 
+@keyframes b-bar {
+    0%{
+        width: 0%;
+    }
+
+    100% {
+        width: 26vw;
+    }
+} 
+@keyframes figma-bar {
+    0%{
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+} 
+
+
+/* skills */
