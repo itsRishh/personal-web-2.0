@@ -13,11 +13,14 @@
 
 .t-row {
     display: flex;
-    grid-gap: 15vw;
+    flex-direction: column;
 }
 
 .skill-bars {
-    margin-top: 18vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    grid-gap: 10vw;
 }
 
 .bar-b {
